@@ -2,8 +2,11 @@ Esta app es la parte frontend de la aplicación de Archivar Noticias desarrollad
 Para instalar debemos hacer lo siguiente:
 1. Descargamos y descomprimimos la aplicación
 2. Abrimos un terminar y nos dirigimos a la carpeta AppNews-master
-3. Descargamos e instalamos node con el comando: `npm install`
+3. Descargamos e instalamos node y npm con el comando: `npm install`
 4. Ejecutamos la app con el comando: `npm run start`
+
+NOTA: Para tener conexión con la base de datos deberemos descargar y lanzar la app: AppNewsServer
+
 
 # MyProject
 
