@@ -1,12 +1,18 @@
 Esta app es la parte frontend de la aplicación de Archivar Noticias desarrollada con Angular y Bootstrap
-Para instalar debemos hacer lo siguiente:
+Para instalarla debemos hacer lo siguiente:
 1. Descargamos y descomprimimos la aplicación
-2. Abrimos un terminar y nos dirigimos a la carpeta AppNews-master
+2. Abrimos un terminal y nos dirigimos a la carpeta AppNews-master
 3. Descargamos e instalamos node y npm con el comando: `npm install`
-4. Ejecutamos la app con el comando: `npm run start`
+4. Ejecutamos la app con el comando: `npm run start` 
 
-NOTA: Para tener conexión con la base de datos deberemos descargar y lanzar la app: AppNewsServer
+NOTA: La app encargada del backend con la que tendremos conexión a la base de datos la puedes encontrar aquí: AppNewsServer (https://github.com/92Barona/AppNewsServer).
 
+
+# MANUAL RÁPIDO
+Si la instalación ha sido correcta, encontrarás la web de la app en `http://localhost:4200/`. Aquí verás una barra de Navegación con 3 botones.
+Con la opción "Create New" irás a una página donde podrás crear noticias con un título y una descripción.
+Cuando hayas creado una noticia, esta aparecerá en la página de "All News". Aquí podrás redirigirte a la página de la noticia con la opción "Detail", o archivar la noticia con la opción "Archive".
+Si archivas una noticia, esta desaparecerá de la página "All News" y aparecerá en la página "Archived News", donde podrás de nuevo dirigirte a la página de la noticia en cuestión o eliminarla con la opción "Remove".
 
 # MyProject
 
