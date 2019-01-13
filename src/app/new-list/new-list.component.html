@@ -1,0 +1,9 @@
+<!-- Creamos página principal con lista de noticias sin archivar -->
+<h1>News List</h1>
+<ul>
+  <li *ngFor="let new of news">
+    {{new.name}}
+    <button type="button" class="btn btn-primary" (click)="onClickDetail($event,new)">Detail</button>
+    <button type="button" class="btn btn-secondary" (click)="onClickArchive($event,new)" *ngIf="!new.archived">Archive</button>
+  </li>
+</ul>

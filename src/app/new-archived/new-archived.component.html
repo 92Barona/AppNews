@@ -1,0 +1,9 @@
+<!-- Creamos página de noticias archivadas -->
+<h1>News Archived</h1>
+<ul>
+  <li *ngFor="let new of news">
+    {{new.name}}
+    <button type="button" class="btn btn-primary" (click)="onClickDetail($even,new)">Detail</button>
+    <button type="button" class="btn btn-secondary" (click)="onClickRemove($even,new)">Remove</button>
+  </li>
+</ul>
